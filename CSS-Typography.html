@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Typography</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <h1>
+        HTML 中的所有标题标签，&lt;h1&gt; 到 &lt;h6&gt; 均可使用。
+        另外，还提供了 .h1 到 .h6 类，为的是给内联（inline）属性的文本赋予标题的样式。
+        <small>在标题内还可以包含 &lt;small&gt; 标签或赋予 .small 类的元素，可以用来标记副标题。</small>
+    </h1>
+    <h2>
+        HTML 中的所有标题标签，&lt;h1&gt; 到 &lt;h6&gt; 均可使用。
+        另外，还提供了 .h1 到 .h6 类，为的是给内联（inline）属性的文本赋予标题的样式。
+        <small>在标题内还可以包含 &lt;small&gt; 标签或赋予 .small 类的元素，可以用来标记副标题。</small>
+    </h2>
+    <h3>
+        HTML 中的所有标题标签，&lt;h1&gt; 到 &lt;h6&gt; 均可使用。
+        另外，还提供了 .h1 到 .h6 类，为的是给内联（inline）属性的文本赋予标题的样式。
+        <small>在标题内还可以包含 &lt;small&gt; 标签或赋予 .small 类的元素，可以用来标记副标题。</small>
+    </h3>
+    <h4>
+        HTML 中的所有标题标签，&lt;h1&gt; 到 &lt;h6&gt; 均可使用。
+        另外，还提供了 .h1 到 .h6 类，为的是给内联（inline）属性的文本赋予标题的样式。
+        <small>在标题内还可以包含 &lt;small&gt; 标签或赋予 .small 类的元素，可以用来标记副标题。</small>
+    </h4>
+    <h5>
+        HTML 中的所有标题标签，&lt;h1&gt; 到 &lt;h6&gt; 均可使用。
+        另外，还提供了 .h1 到 .h6 类，为的是给内联（inline）属性的文本赋予标题的样式。
+        <small>在标题内还可以包含 &lt;small&gt; 标签或赋予 .small 类的元素，可以用来标记副标题。</small>
+    </h5>
+    <h6>
+        HTML 中的所有标题标签，&lt;h1&gt; 到 &lt;h6&gt; 均可使用。
+        另外，还提供了 .h1 到 .h6 类，为的是给内联（inline）属性的文本赋予标题的样式。
+        <small>在标题内还可以包含 &lt;small&gt; 标签或赋予 .small 类的元素，可以用来标记副标题。</small>
+    </h6>
+
+    <p class="lead">
+        通过添加 .lead 类可以让段落突出显示。
+    </p>
+        Bootstrap 将全局 font-size 设置为 14px，line-height 设置为 1.428。这些属性直接赋予 &lt; body &gt; 元素和所有段落元素。
+        另外， &lt; p &gt; (段落）元素还被设置了等于 1/2 行高（即 10px）的底部外边距（margin）。
+    </p>
+    <p>
+        Bootstrap 将全局 font-size 设置为 14px，line-height 设置为 1.428。这些属性直接赋予 &lt; body &gt; 元素和所有段落元素。
+        另外， &lt; p &gt; (段落）元素还被设置了等于 1/2 行高（即 10px）的底部外边距（margin）。
+    </p>
+
+    <h2><mark>高亮</mark></h2>
+
+    <h2><del>对于被删除的文本使用 &lt;del&gt; 标签。</del></h2><br>
+    <h2><s>对于没用的文本使用 &lt;s&gt; 标签。</s></h2>
+
+    <h2><ins>额外插入的文本使用 &lt;ins&gt; 标签。</ins></h2>
+    <h2><u>为文本添加下划线，使用 &lt;u&gt; 标签。</u></h2>
+
+    <small>
+        对于不需要强调的inline或block类型的文本，使用 &lt;small&gt; 标签包裹，其内的文本将被设置为父容器字体大小的 85%。
+        标题元素中嵌套的 &lt;small&gt; 元素被设置不同的 font-size 。
+    </small><br>
+    <small>你还可以为行内元素赋予 .small 类以代替任何 &lt;small&gt; 元素。</small><br>
+
+    <strong>通过增加 font-weight 值强调一段文本。</strong><br>
+    <em>用斜体强调一段文本。</em><br>
+
+    <p class="text-left">通过文本对齐类，可以简单方便的将文字重新对齐。</p>
+    <p class="text-center">通过文本对齐类，可以简单方便的将文字重新对齐。</p>
+    <p class="text-right">通过文本对齐类，可以简单方便的将文字重新对齐。</p>
+    <p class="text-justify">通过文本对齐类，可以简单方便的将文字重新对齐。</p>
+    <p class="text-nowrap">通过文本对齐类，可以简单方便的将文字重新对齐。</p>
+
+    <p class="text-lowercase">Tu bin 全小写</p>
+    <p class="text-uppercase">Tu bin 全大写</p>
+    <p class="text-capitalize">Tu bin 首字母大写</p>
+
+    <p>
+        当鼠标悬停在缩写和缩写词上时就会显示完整内容，Bootstrap 实现了对 HTML 的
+        <abbr title="如想看完整的内容可把鼠标悬停在缩略语上（对使用辅助技术的用户也可见）, 但需要包含 title 属性。">&lt;abbr&gt; </abbr>
+        元素的增强样式。
+        缩略语元素带有 title 属性，外观表现为带有较浅的虚线框，鼠标移至上面时会变成带有“问号”的指针。
+    </p>
+
+    <p>为缩略语添加 .initialism 类，可以让 font-size 变得稍微小些。例如:
+        <abbr title="HyperText Markup Language" class="initialism">HTML</abbr>
+    </p>
+
+    <p>
+        让联系信息以最接近日常使用的格式呈现。
+        <address>
+            <strong>Twitter, Inc.</strong><br>
+            1355 Market Street, Suite 900<br>
+            San Francisco, CA 94103<br>
+            <abbr title="Phone">P:</abbr> (123) 456-7890
+        </address>
+
+        <address>
+            <strong>Full Name</strong><br>
+            <a href="mailto:#">first.last@example.com</a>
+        </address>
+    </p>
+
+    <blockquote>
+        <p>
+            将任何 HTML 元素包裹在 &lt;blockquote&gt; 中即可表现为引用样式。
+            对于直接引用，我们建议用 &lt;p&gt; 标签。
+        </p>
+    </blockquote>
+
+    <blockquote>
+        <p>
+            对于标准样式的 &lt;blockquote&gt;，可以通过几个简单的变体就能改变风格和内容。
+        </p>
+        <footer>添加 &lt;footer&gt; 用于标明引用来源。<cite>来源的名称可以包裹进 &lt;cite&gt;标签中。</cite></footer>
+    </blockquote>
+
+    <blockquote class="blockquote-reverse">
+        <p>
+            通过赋予 .blockquote-reverse 类可以让引用呈现内容右对齐的效果。
+        </p>
+        <footer>通过赋予 .blockquote-reverse 类可以让引用呈现内容右对齐的<cite>效果</cite>。</footer>
+    </blockquote>
+
+    <ul>
+        <li>排列顺序无关紧要的一列元素。</li>
+        <li>排列顺序无关紧要的一列元素。</li>
+        <li>排列顺序无关紧要的一列元素。</li>
+        <li>排列顺序无关紧要的一列元素。</li>
+    </ul>
+
+    <ol>
+        <li>顺序至关重要的一组元素。</li>
+        <li>顺序至关重要的一组元素。</li>
+        <li>顺序至关重要的一组元素。</li>
+        <li>顺序至关重要的一组元素。</li>
+    </ol>
+
+    <ul class="list-unstyled">
+        <li>移除了默认的 list-style 样式和左侧外边距的一组元素（只针对直接子元素）。
+            <ul>
+                <li>这是针对直接子元素的，也就是说，你需要对所有嵌套的列表都添加这个类才能具有同样的样式。</li>
+                <li>这是针对直接子元素的，也就是说，你需要对所有嵌套的列表都添加这个类才能具有同样的样式。</li>
+            </ul>
+        </li>
+        <li>移除了默认的 list-style 样式和左侧外边距的一组元素（只针对直接子元素）。</li>
+    </ul>
+
+    <ul class="list-inline">
+        <li>通过设置 display: inline-block; </li>
+        <li>并添加少量的内补（padding），</li>
+        <li>将所有元素放置于同一行。</li>
+    </ul>
+
+    <dl>
+        <dt>带有描述的短语列表。</dt>
+        <dd>带有描述的短语列表。</dd>
+    </dl>
+
+    <dl class="dl-horizontal">
+        <dt>.dl-horizontal 可以让 &lt;dl&gt; 内的短语及其描述排在一行。</dt>
+        <dd>开始是像 &lt;dl&gt; 的默认样式堆叠在一起，随着导航条逐渐展开而排列在一行。</dd>
+        <dd>通过 text-overflow 属性，水平排列的描述列表将会截断左侧太长的短语。在较窄的视口（viewport）内，列表将变为默认堆叠排列的布局方式。</dd>
+    </dl>
+</body>
+</html>
