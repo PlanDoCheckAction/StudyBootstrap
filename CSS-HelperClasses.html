@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HelperClasses</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <h1>情境文本颜色</h1>
+    <p class="text-muted">辅助类-情境文本颜色</p>
+    <p class="text-primary">通过颜色来展示意图，</p>
+    <p class="text-success">Bootstrap 提供了一组工具类。</p>
+    <p class="text-info">这些类可以应用于链接，</p>
+    <p class="text-warning">并且在鼠标经过时颜色可以还可以加深，</p>
+    <p class="text-danger">就像默认的链接一样。</p>
+
+    <h1>情境背景色</h1>
+    <p class="bg-primary">辅助类-情境背景色</p>
+    <p class="bg-success">和情境文本颜色类一样，</p>
+    <p class="bg-info">使用任意情境背景色类就可以设置元素的背景。</p>
+    <p class="bg-warning">链接组件在鼠标经过时颜色会加深，</p>
+    <p class="bg-danger">就像上面所讲的情境文本颜色类一样。</p>
+
+    <h1>关闭按钮</h1>
+    <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+    <h1>三角符号</h1>
+    <span class="caret"></span>
+
+    <h1>快速浮动</h1>
+    <div class="pull-left">通过添加一个类，可以将任意元素向左或向右浮动。!important 被用来明确 CSS 样式的优先级。</div>
+    <div class="pull-right">这些类还可以作为 mixin（参见 less 文档） 使用。</div>
+    <br>
+    <br>
+    <br>
+
+    <h1>让内容块居中</h1>
+    <div class="center-block">为任意元素设置 display: block 属性并通过 margin 属性让其中的内容居中。下面列出的类还可以作为 mixin 使用。</div>
+
+    <h1>清除浮动</h1>
+    <div class="clearfix">通过为父元素添加 .clearfix 类可以很容易地清除浮动（float）。这里所使用的是 Nicolas Gallagher 创造的 micro clearfix 方式。此类还可以作为 mixin 使用。</div>
+
+    <h1>显示或隐藏内容</h1>
+    <div class="show">显示</div>
+    <div class="hidden">隐藏</div>
+
+    <h1>屏幕阅读器和键盘导航</h1>
+    <a class="sr-only sr-only-focusable" href="#">.sr-only 类可以对屏幕阅读器以外的设备隐藏内容。.sr-only 和 .sr-only-focusable 联合使用的话可以在元素有焦点的时候再次显示出来（例如，使用键盘导航的用户）。对于遵循 可访问性的最佳实践 很有必要。这个类也可以作为 mixin 使用。</a>
+    <br>
+    <br>
+
+    <h1>图片替换</h1>
+    <h1 class="text-hide">使用 .text-hide 类或对应的 mixin 可以用来将元素的文本内容替换为一张背景图。</h1>
+</body>
+</html>
