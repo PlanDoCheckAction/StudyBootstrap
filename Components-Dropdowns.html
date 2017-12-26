@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dropdowns</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+    <h1>实例</h1>
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="true">
+            Dropdown
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="#">将下拉菜单触发器和下拉菜单都包裹在 .dropdown 里，</a></li>
+            <li><a href="#">或者另一个声明了 position: relative; 的元素。</a></li>
+            <li><a href="#">然后加入组成菜单的 HTML 代码。</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">上面有一条分割线</a></li>
+        </ul>
+    </div>
+
+    <div class="dropup">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+            Dropup
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <li><a href="#">通过为下拉菜单的父元素设置 .dropup 类，</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">可以让菜单向上弹出（默认是向下弹出的）。</a></li>
+        </ul>
+    </div>
+
+    <h1>对齐</h1>
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dLabel" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="true">
+            对齐
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dLabel">
+            <li><a href="#">默认情况下，</a></li>
+            <li><a href="#">下拉菜单自动沿着父元素的上沿和左侧被定位为 100% 宽度。</a></li>
+            <li><a href="#"> 为 .dropdown-menu 添加 .dropdown-menu-right 类可以让菜单右对齐。</a></li>
+        </ul>
+    </div>
+
+    <h1>标题</h1>
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="true">
+            在任何下拉菜单中均可通过添加标题来标明一组动作。
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+            <li class="dropdown-header">a</li>
+            <li><a href="#">阿尔法</a></li>
+            <li><a href="#">爱尔兰</a></li>
+            <li class="dropdown-header">b</li>
+            <li><a href="#">贝塔</a></li>
+            <li><a href="#">比尔</a></li>
+        </ul>
+    </div>
+
+    <h1>分割线</h1>
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuDivider" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="true">
+            分割线
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuDivider">
+            <li><a href="#">为下拉菜单添加一条分割线，</a></li>
+            <li><a href="#">用于将多个链接分组。</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">上面的是分割线</a></li>
+        </ul>
+    </div>
+
+    <h1>禁用的菜单项</h1>
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu4" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="true">
+            禁用的菜单项
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
+            <li><a href="#">为下拉菜单中的 &lt;li&gt; 元素添加 .disabled 类，</a></li>
+            <li class="disabled"><a href="#">这是被禁用的菜单项</a></li>
+            <li><a href="#">从而禁用相应的菜单项。</a></li>
+        </ul>
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
