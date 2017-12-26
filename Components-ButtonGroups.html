@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ButtonGroups</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <h1>基本实例</h1>
+    <div class="btn-group" role="group" aria-label="">
+        <button type="button" class="btn btn-default">Left</button>
+        <button type="button" class="btn btn-default">Middle</button>
+        <button type="button" class="btn btn-default">Right</button>
+    </div>
+
+    <h1>按钮工具栏</h1>
+    <div class="btn-toolbar" role="toolbar" aria-label="">
+        <div class="btn-group" role="group" aria-label="">
+            <button type="button" class="btn btn-default">1</button>
+            <button type="button" class="btn btn-default">2</button>
+            <button type="button" class="btn btn-default">3</button>
+            <button type="button" class="btn btn-default">4</button>
+        </div>
+        <div class="btn-group" role="group" aria-label="">
+            <button type="button" class="btn btn-default">5</button>
+            <button type="button" class="btn btn-default">6</button>
+            <button type="button" class="btn btn-default">7</button>
+        </div>
+        <div class="btn-group" role="group" aria-label="">
+            <button type="button" class="btn btn-default">8</button>
+        </div>
+    </div>
+
+    <h1>尺寸</h1>
+    <div class="btn-group btn-group-lg" role="group" aria-label="">
+        <button type="button" class="btn btn-default">Left</button>
+        <button type="button" class="btn btn-default">Middle</button>
+        <button type="button" class="btn btn-default">Right</button>
+    </div>
+    <div class="btn-group" role="group" aria-label="">
+        <button type="button" class="btn btn-default">Left</button>
+        <button type="button" class="btn btn-default">Middle</button>
+        <button type="button" class="btn btn-default">Right</button>
+    </div>
+    <div class="btn-group btn-group-sm" role="group" aria-label="">
+        <button type="button" class="btn btn-default">Left</button>
+        <button type="button" class="btn btn-default">Middle</button>
+        <button type="button" class="btn btn-default">Right</button>
+    </div>
+    <div class="btn-group btn-group-xs" role="group" aria-label="">
+        <button type="button" class="btn btn-default">Left</button>
+        <button type="button" class="btn btn-default">Middle</button>
+        <button type="button" class="btn btn-default">Right</button>
+    </div>
+
+    <h1>嵌套</h1>
+    <div class="btn-group" role="group" aria-label="">
+        <button type="button" class="btn btn-default">1</button>
+        <button type="button" class="btn btn-default">2</button>
+
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default dropdown-toggle"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">想要把下拉菜单混合到一系列按钮中，</a></li>
+                <li><a href="#">只须把 .btn-group 放入另一个 .btn-group 中。</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <h1>垂直排列</h1>
+    <div class="btn-group-vertical" role="group" aria-label="">
+        <button type="button" class="btn btn-default">Button</button>
+        <button type="button" class="btn btn-default">Button</button>
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                Dropdown
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">让一组按钮垂直堆叠排列显示而不是水平排列。</a></li>
+                <li><a href="#">分列式按钮下拉菜单不支持这种方式。</a></li>
+            </ul>
+        </div>
+        <button type="button" class="btn btn-default">Button</button>
+        <button type="button" class="btn btn-default">Button</button>
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                Dropdown
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">让一组按钮垂直堆叠排列显示而不是水平排列。</a></li>
+                <li><a href="#">分列式按钮下拉菜单不支持这种方式。</a></li>
+            </ul>
+        </div>
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                Dropdown
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">让一组按钮垂直堆叠排列显示而不是水平排列。</a></li>
+                <li><a href="#">分列式按钮下拉菜单不支持这种方式。</a></li>
+            </ul>
+        </div>
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                Dropdown
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">让一组按钮垂直堆叠排列显示而不是水平排列。</a></li>
+                <li><a href="#">分列式按钮下拉菜单不支持这种方式。</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <h1>两端对齐排列的按钮组</h1>
+    <h2>关于 &lt;a&gt; 元素</h2>
+    <div class="btn-group btn-group-justified" role="group" aria-label="">
+        <a href="#" class="btn btn-default" role="button">Left</a>
+        <a href="#" class="btn btn-default" role="button">Middle</a>
+            <a href="#" class="btn btn-default" role="button">Right</a>
+    </div>
+    <div class="btn-group btn-group-justified" role="group" aria-label="">
+        <a href="#" class="btn btn-default" role="button">Left</a>
+        <a href="#" class="btn btn-default" role="button">Middle</a>
+        <div class="btn-group">
+            <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false" role="button">
+                Dropdown
+                <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="#">关于 &lt;a&gt; 元素</a></li>
+                <li><a href="#">只须将一系列 .btn 元素包裹到 .btn-group.btn-group-justified 中即可。</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <h2>关于 &lt;button&gt; 元素</h2>
+    <div class="btn-group btn-group-justified" role="group" aria-label="">
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default">为了将 &lt;button&gt; 元素用于两端对齐的按钮组中，</button>
+        </div>
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default">必须将每个按钮包裹进一个按钮组中</button>
+        </div>
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default">大部分的浏览器不能将我们的 CSS 应用到对齐的 &lt;button&gt; 元素上，</button>
+        </div>
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default">但是，由于我们支持按钮式下拉菜单，我们可以解决这个问题。</button>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
