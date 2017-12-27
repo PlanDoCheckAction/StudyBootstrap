@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navs</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <h1>标签页</h1>
+    <ul class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="#">注意 .nav-tabs 类依赖 .nav 基类。</a></li>
+        <li role="presentation"><a href="#">注意 .nav-tabs 类依赖 .nav 基类。</a></li>
+        <li role="presentation"><a href="#">注意 .nav-tabs 类依赖 .nav 基类。</a></li>
+    </ul>
+
+    <h1>胶囊式标签页</h1>
+    <ul class="nav nav-pills">
+        <li role="presentation" class="active"><a href="#">HTML 标记相同，但使用 .nav-pills 类：</a></li>
+        <li role="presentation"><a href="#">HTML 标记相同，但使用 .nav-pills 类：</a></li>
+        <li role="presentation"><a href="#">HTML 标记相同，但使用 .nav-pills 类：</a></li>
+    </ul>
+    <br>
+    <ul class="nav nav-pills nav-stacked">
+        <li role="presentation" class="active"><a href="#">胶囊是标签页也是可以垂直方向堆叠排列的。只需添加 .nav-stacked 类。</a></li>
+        <li role="presentation"><a href="#">胶囊是标签页也是可以垂直方向堆叠排列的。只需添加 .nav-stacked 类。</a></li>
+        <li role="presentation"><a href="#">胶囊是标签页也是可以垂直方向堆叠排列的。只需添加 .nav-stacked 类。</a></li>
+    </ul>
+
+    <h1>两端对齐的标签页</h1>
+    <ul class="nav nav-tabs nav-justified">
+        <li role="presentation" class="active"><a href="#">在大于 768px 的屏幕上，</a></li>
+        <li role="presentation"><a href="#">通过 .nav-justified 类可以很容易的让标签页或胶囊式标签呈现出同等宽度。</a></li>
+        <li role="presentation"><a href="#">在小屏幕上，导航链接呈现堆叠样式。</a></li>
+    </ul>
+    <br>
+    <ul class="nav nav-pills nav-justified">
+        <li role="presentation" class="active"><a href="#">在大于 768px 的屏幕上，</a></li>
+        <li role="presentation"><a href="#">通过 .nav-justified 类可以很容易的让标签页或胶囊式标签呈现出同等宽度。</a></li>
+        <li role="presentation"><a href="#">在小屏幕上，导航链接呈现堆叠样式。</a></li>
+    </ul>
+
+    <h1>禁用的链接</h1>
+    <ul class="nav nav-pills">
+        <li role="presentation" class="active"><a href="#">对任何导航组件（标签页、胶囊式标签页），</a></li>
+        <li role="presentation"><a href="#">都可以添加 .disabled 类，从而实现链接为灰色且没有鼠标悬停效果。</a></li>
+        <li role="presentation" class="disabled"><a href="www.baidu.com">个类只改变 &lt;a&gt; 的外观，不改变功能。可以自己写 JavaScript 禁用这里的链接。</a></li>
+    </ul>
+
+    <h1>添加下拉菜单</h1>
+    <h2>带下拉菜单的标签页</h2>
+    <ul class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="#">Active</a></li>
+        <li role="presentation" class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                Dropdown <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+            </ul>
+        </li>
+        <li role="presentation"><a href="#">Nav</a></li>
+    </ul>
+
+    <h2>带下拉菜单的胶囊式标签页</h2>
+    <ul class="nav nav-pills">
+        <li role="presentation" class="active"><a href="#">Active</a></li>
+        <li role="presentation" class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                Dropdown <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+            </ul>
+        </li>
+        <li role="presentation"><a href="#">Nav</a></li>
+    </ul>
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
