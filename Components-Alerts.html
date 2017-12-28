@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alerts</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <h1>实例</h1>
+    <div class="alert alert-success" role="alert">Success</div>
+    <div class="alert alert-info" role="alert">Info</div>
+    <div class="alert alert-warning" role="alert">Warning</div>
+    <div class="alert alert-danger" role="alert">Danger</div>
+
+    <h1>可关闭的警告框</h1>
+    <div class="alert alert-warning alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <strong>Warning!</strong> Better check yourself, you're not looking too good.
+    </div>
+
+    <h1>警告框中的链接</h1>
+    <div class="alert alert-success" role="alert">
+        <a href="#" class="alert-link">我是警告框内的链接</a>balabala<strong>我不是链接</strong>bala...
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
