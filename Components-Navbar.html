@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navbar</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--<style type="text/css">
+        body {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+    </style>-->
+</head>
+<body>
+    <h1>默认样式的导航条</h1>
+    <nav class="navbar navbar-default">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Brand</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Link</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                       aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">4</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">5</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-left">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Link</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                       aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">4</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1>品牌图标</h1>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt="Brand" style="width: 30px">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <h1>表单</h1>
+    <nav class="navbar navbar-default">
+        <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+    </nav>
+
+    <h1>按钮</h1>
+    <nav class="navbar navbar-default">
+        <button type="button" class="btn btn-default navbar-btn">Sigin in</button>
+    </nav>
+
+    <h1>文本</h1>
+    <nav class="navbar navbar-default">
+        <p class="navbar-text">把文本包裹在 .navbar-text中时，为了有正确的行距和颜色，通常使用 &lt;p&gt; 标签。</p>
+    </nav>
+
+    <h1>非导航的链接</h1>
+    <nav class="navbar navbar-default">
+        <p class="navbar-text navbar-right">或许你希望在标准的导航组件之外添加标准链接，那么，使用<a href="#" class="navbar-link">.navbar-link</a>类可以让链接有正确的默认颜色和反色设置。</p>
+    </nav>
+
+    <h1>组件排列</h1>
+    <nav class="navbar navbar-default">
+        <p class="navbar-text navbar-left">Left 1</p>
+        <p class="navbar-text navbar-left">Left 2</p>
+        <p class="navbar-text navbar-right">Right 1</p>
+        <p class="navbar-text navbar-right">Right 2</p>
+    </nav>
+
+    <h1>固定在顶部</h1>
+    <!--<nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+        </div>
+    </nav>-->
+
+    <h1>固定在底部</h1>
+    <!--<nav class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+        </div>
+    </nav>-->
+
+    <h1>静止在顶部</h1>
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1>反色的导航条</h1>
+    <nav class="navbar navbar-inverse">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+        </ul>
+    </nav>
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
