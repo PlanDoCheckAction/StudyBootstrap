@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ListGroup</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <h1>基本实例</h1>
+    <ul class="list-group">
+        <li class="list-group-item">最简单的列表组仅仅是一个带有多个列表条目的无序列表，</li>
+        <li class="list-group-item">另外还需要设置适当的类。</li>
+        <li class="list-group-item">我们提供了一些预定义的样式，</li>
+        <li class="list-group-item">你可以根据自身的需求通过 CSS 自己定制。</li>
+    </ul>
+
+    <h1>徽章</h1>
+    <ul class="list-group">
+        <li class="list-group-item">
+            <span class="badge">14</span>
+            给列表组加入徽章组件，它会自动被放在右边。
+        </li>
+    </ul>
+
+    <h1>链接</h1>
+    <div class="list-group">
+        <a href="#" class="list-group-item">用 &lt;a&gt; 标签代替 &lt;li&gt; 标签可以组成一个全部是链接的列表组.</a>
+        <a href="#" class="list-group-item">（还要注意的是，我们需要将 &lt;ul&gt; 标签替换为 &lt;div&gt; 标签）</a>
+        <a href="#" class="list-group-item">没必要给列表组中的每个元素都加一个父元素。</a>
+        <a href="#" class="list-group-item">balabalabala...</a>
+    </div>
+
+    <h1>按钮</h1>
+    <div class="list-group">
+        <button type="button" class="list-group-item">列表组中的元素也可以直接就是按钮,</button>
+        <button type="button" class="list-group-item">（也同时意味着父元素必须是 &lt;div&gt; 而不能用 &lt;ul&gt; 了）</button>
+        <button type="button" class="list-group-item">并且无需为每个按钮单独包裹一个父元素。</button>
+        <button type="button" class="list-group-item">注意不要使用标准的 .btn 类！</button>
+    </div>
+
+    <h1>被禁用的条目</h1>
+    <div class="list-group">
+        <a href="#" class="list-group-item disabled">为 .list-group-item 添加 .disabled 类可以让单个条目显示为灰色，</a>
+        <a href="#" class="list-group-item">表现出被禁用的效果。</a>
+    </div>
+
+    <h1>情境类</h1>
+    <div class="row">
+        <div class="col-lg-6">
+            <ul class="list-group">
+                <li class="list-group-item list-group-item-success">success</li>
+                <li class="list-group-item list-group-item-info">info</li>
+                <li class="list-group-item list-group-item-warning">warning</li>
+                <li class="list-group-item list-group-item-danger">danger</li>
+            </ul>
+        </div>
+        <div class="col-lg-6">
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-success">seccess</a>
+                <a href="#" class="list-group-item list-group-item-info">info</a>
+                <a href="#" class="list-group-item list-group-item-warning">warning</a>
+                <a href="#" class="list-group-item list-group-item-danger">danger</a>
+            </div>
+        </div>
+    </div>
+
+    <h1>定制内容</h1>
+    <div class="list-group">
+        <a href="#" class="list-group-item active">
+            <h4 class="list-group-item-heading">List group heading</h4>
+            <p class="list-group-item-text">balabalabalabala...</p>
+        </a>
+        <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">List group heading</h4>
+            <p class="list-group-item-text">balabalabalabala...</p>
+        </a>
+        <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">List group heading</h4>
+            <p class="list-group-item-text">balabalabalabala...</p>
+        </a>
+    </div>
+
+
+</body>
+</html>
