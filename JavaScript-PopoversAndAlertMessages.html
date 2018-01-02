@@ -8,6 +8,20 @@
     <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-    
+    <h1>弹出框</h1>
+    <button type="button" class="btn btn-danger btn-lg" data-toggle="popover"
+            title="标题" data-content="balabala..." data-trigger="hover focus" data-placement="auto">
+        点击弹出/隐藏弹出框</button>
+
+    <h1>警告框</h1>
+    <div class="alert alert-warning fade in">
+        <button class="close" data-dismiss="alert">
+            <span>&times;</span>
+        </button>
+        <p>警告：您的余额已不足，请立即充值!</p>
+    </div>
+    <script>
+        $('button').popover();
+    </script>
 </body>
 </html>
